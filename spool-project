@@ -1,0 +1,17 @@
+#!/bin/bash
+
+read -p "This script will install dependencies, run postgreSQL, start the server and the client of this project.  Do you wish to proceed? Y/n : " confirm
+
+if[ "$confirm" == "Y" ]: then
+	postgres &
+	npm run server &
+	npm run client &
+	wait 
+	echo "Exiting"
+	postgres.exit()
+	node.exit()
+	exit
+else
+	echo "Exiting"
+	exit
+fi
