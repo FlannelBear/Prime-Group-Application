@@ -18,6 +18,17 @@ The result was a reliable and reusable process for new and existing customers to
 
 ## See It In Action
 
+If you'd like to run this application on your local system, download this repo as a zip file.
+1. Navigate to the root folder of the project after opening the zip file.
+2. Here you have two options:
+  - This project contains a bash script that can spool together the project on its.  To do this, you can execute the bash file in the root folder called "spool-project".
+  - If you'd prefer not to run the script, you can run the following commands in your command line while in the root directory of this project:
+    * postgres (run a PostgreSQL database)
+    * npm run server (start the node server)
+    * npm run client (start the client)
+
+OR
+
 This application is currently deployed to [Heroku](https://damp-cliffs-99667.herokuapp.com/#/home).
 
 In order to see all the features you'll need a couple things:
