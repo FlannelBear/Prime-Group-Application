@@ -26,6 +26,8 @@ If you'd like to run this application on your local system, download this repo a
     * postgres (run a PostgreSQL database)
     * npm run server (start the node server)
     * npm run client (start the client)
+    
+(To end all processes you'll need to press Ctrl + C twice)
 
 OR
 
