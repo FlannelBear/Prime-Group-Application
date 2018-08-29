@@ -3,6 +3,7 @@
 read -p "This script will install dependencies, run postgreSQL, start the server and the client of this project.  Do you wish to proceed? Y/n : " confirm
 
 if[ "$confirm" == "Y" ]: then
+	npm install
 	postgres &
 	npm run server &
 	npm run client &
